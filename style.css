@@ -7,14 +7,17 @@
 }
 
 body {
-    background-color: #2839ED;
+    background-color: rgb(70, 69, 92);
     
 }
-header {
-    background-image: linear-gradient(to top, black, transparent);
+header { 
+    
+    background-image: linear-gradient(to bottom, rgb(59, 79, 196), rgb(70, 69, 92));
+    width: 100%;
     margin: auto;
     text-align: center;
     padding: 15px;
+    box-shadow: 10px 10px 10px rgb(24, 24, 59);
 }
 
 header > h1{
@@ -31,10 +34,10 @@ header > p{
     width: 150px;
     height: 150px;
     text-align: left;
-    margin-top: ;
+    margin-top: 5px;
 }
 main{
-    background-color: #2230C7;
+    background-color: #525896;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -42,6 +45,7 @@ main{
 
 main > div{
     display:  inline-flex;
+    background-color: rgb(54, 54, 105);
     width: 300px;
     height: 300px;
     margin: auto;
