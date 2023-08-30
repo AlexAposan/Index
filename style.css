@@ -8,6 +8,7 @@
 
 body {
     background-color: #2839ED;
+    
 }
 header {
     background-color: #101761;
@@ -27,7 +28,7 @@ header > p{
 
 main{
     background-color: #2230C7;
-    height: 90vh;
+    height: 99vh;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -35,7 +36,7 @@ main{
 
 main > div{
     margin: auto;
-    display: inline-flex;
+    display: inline-block;
     margin: 5px;
     padding: 5px;
     box-shadow: 5px 2px 5px 5px  rgba(0, 0, 0, 0.356);
@@ -52,9 +53,22 @@ main > div{
     height: 200px;
     
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:darkblue ;
+    border-radius:  5px;
+    padding: 7px;
+}
 
 footer{
     background-color: rgba(0, 0, 0, 0.89);
     color: white;
     text-align: center;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(10, 13, 54);
 }
