@@ -29,14 +29,18 @@ header > p{
 
 main{
     background-color: #2230C7;
-    height: 115vh;
+    height: ;
     margin: 10px;
     padding: 10px;
     text-align: center;
 }
 
 main > div{
-    display: inline-flex;
+    display:  inline-flex;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    align-items: center;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0px 3px 5px 5px  rgba(0, 0, 0, 0.356);
