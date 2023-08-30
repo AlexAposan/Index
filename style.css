@@ -11,7 +11,7 @@ body {
     
 }
 header {
-    background-color: #101761;
+    background-image: linear-gradient(to top, black, transparent);
     margin: auto;
     text-align: center;
     padding: 15px;
@@ -28,8 +28,8 @@ header > p{
 
 #esquerda{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     text-align: left;
     margin-top: ;
 }
