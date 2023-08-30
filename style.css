@@ -24,9 +24,15 @@ header > h1{
 header > p{
     color: rgb(214, 200, 200);
     font-weight: bold;
-    
 }
 
+#esquerda{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    margin-top: ;
+}
 main{
     background-color: #2230C7;
     margin: 10px;
