@@ -38,19 +38,19 @@ header > p{
 }
 main{
     background-color: #525896;
-    margin: 99,9vhpx;
+    margin: 0px 0px 0px;
     padding: 10px;
     text-align: center;
 }
 
 main > div{
-    display:  inline-flex;
+    display: inline-flex;
     background-color: rgb(54, 54, 105);
     width: 300px;
     height: 300px;
-    margin: auto;
+    margin: 10px 10px;
     align-items: center;
-    padding: 5px;
+    padding: 0px 5px;
     border-radius: 5px;
     box-shadow: 0px 3px 5px 5px  rgba(0, 0, 0, 0.356);
 }
